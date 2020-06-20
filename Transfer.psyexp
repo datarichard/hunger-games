@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="1.84.2">
+  <Settings>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Data filename" updates="None" val="u&quot;/data/&quot; + os.sep + '%s_%s' % (expInfo['participant'], expInfo['date'])" valType="code"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="color" updates="None" val="$[-1,-1,-1]" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1440, 900]" valType="code"/>
+    <Param name="Full-screen window" updates="None" val="False" valType="bool"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{u'version': u'A', u'participant': u''}" valType="code"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="False" valType="bool"/>
+    <Param name="expName" updates="None" val="transfer" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+  </Settings>
+  <Routines>
+    <Routine name="test">
+      <PatchComponent name="CStest">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="constant" val="CStest" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="$Duration" valType="code"/>
+        <Param name="durationEstim" updates="None" val="3" valType="code"/>
+        <Param name="mask" updates="constant" val="none" valType="str"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="sf" updates="constant" val="none" valType="code"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="phase" updates="constant" val="0" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="set every frame" val="$tilt" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="image" updates="set every repeat" val="$CS" valType="str"/>
+        <Param name="size" updates="constant" val="[1.5, 2]" valType="code"/>
+      </PatchComponent>
+      <CodeComponent name="checkKeys">
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="name" updates="None" val="checkKeys" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="pressL = 0.0&amp;#10;pressR = 0.0&amp;#10;logging.log(level=logging.DATA, msg = 'start')&amp;#10;" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="logging.log(level=logging.DATA, msg = 'end')&amp;#10;logging.flush()" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="if tilt &gt; 0:&amp;#10; tilt  = tilt-1&amp;#10;if tilt &lt; 0:&amp;#10; tilt = tilt+1&amp;#10;&amp;#10;if event.getKeys(['t']):&amp;#10; pressL = pressL+1&amp;#10; tilt = -15&amp;#10;&amp;#10;if event.getKeys(['v']):&amp;#10; pressR=pressR+1&amp;#10; tilt = 15&amp;#10;&amp;#10;" valType="extendedCode"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="feedback">
+      <TextComponent name="text">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="LightGray" valType="str"/>
+        <Param name="text" updates="constant" val="      Thankyou!                                                                   &amp;#10;&amp;#10;Stage 3 completed" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Helvetica Bold" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instr">
+      <CodeComponent name="init">
+        <Param name="Begin Experiment" updates="constant" val="tilt=0&amp;#10;pressL = 0.0&amp;#10;pressR = 0.0&amp;#10;" valType="extendedCode"/>
+        <Param name="name" updates="None" val="init" valType="code"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each Frame" updates="constant" val="&amp;#10;" valType="extendedCode"/>
+      </CodeComponent>
+      <TextComponent name="test_trigger">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="test_trigger" valType="code"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="color" updates="constant" val="LightGray" valType="str"/>
+        <Param name="text" updates="constant" val="Now you have found one of the&amp;#10;new secure machines. At random&amp;#10;intervals we will overstock it with a&amp;#10;different snack. You will be given an&amp;#10;opportunity to steal from the&amp;#10;machine when it is overstocked.&amp;#10;&amp;#10;However, to test your memory no&amp;#10;snacks will appear on the screen.&amp;#10;Remember what you have learned&amp;#10;and steal as many snacks as you&amp;#10;can.&amp;#10;&amp;#10;&amp;#10;        Press space to begin" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="[0, 0]" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Helvetica Bold" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.075" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="trigger_resp">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="trigger_resp" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="nothing" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instr"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="conditionsFile" updates="None" val="transfertrials.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{u'Onset': 0, u'CS': u'fix.png', u'Duration': 9}, {u'Onset': 9, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 15, u'CS': u'vend.png', u'Duration': 16}, {u'Onset': 31, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 37, u'CS': u'vend.png', u'Duration': 7}, {u'Onset': 44, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 50, u'CS': u'vend.png', u'Duration': 8}, {u'Onset': 58, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 64, u'CS': u'vend.png', u'Duration': 11}, {u'Onset': 75, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 81, u'CS': u'vend.png', u'Duration': 15}, {u'Onset': 96, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 102, u'CS': u'vend.png', u'Duration': 3}, {u'Onset': 105, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 111, u'CS': u'vend.png', u'Duration': 9}, {u'Onset': 120, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 126, u'CS': u'vend.png', u'Duration': 10}, {u'Onset': 136, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 142, u'CS': u'vend.png', u'Duration': 15}, {u'Onset': 157, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 163, u'CS': u'vend.png', u'Duration': 10}, {u'Onset': 173, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 179, u'CS': u'vend.png', u'Duration': 15}, {u'Onset': 194, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 200, u'CS': u'vend.png', u'Duration': 15}, {u'Onset': 215, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 221, u'CS': u'vend.png', u'Duration': 10}, {u'Onset': 231, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 237, u'CS': u'vend.png', u'Duration': 10}, {u'Onset': 247, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 253, u'CS': u'vend.png', u'Duration': 7}, {u'Onset': 260, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 266, u'CS': u'vend.png', u'Duration': 11}, {u'Onset': 277, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 283, u'CS': u'vend.png', u'Duration': 2}, {u'Onset': 285, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 291, u'CS': u'vend.png', u'Duration': 8}, {u'Onset': 299, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 305, u'CS': u'vend.png', u'Duration': 12}, {u'Onset': 317, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 323, u'CS': u'vend.png', u'Duration': 10}, {u'Onset': 333, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 339, u'CS': u'vend.png', u'Duration': 9}, {u'Onset': 348, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 354, u'CS': u'vend.png', u'Duration': 9}, {u'Onset': 363, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 369, u'CS': u'vend.png', u'Duration': 10}, {u'Onset': 379, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 385, u'CS': u'vend.png', u'Duration': 11}, {u'Onset': 396, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 402, u'CS': u'vend.png', u'Duration': 6}, {u'Onset': 408, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 414, u'CS': u'vend.png', u'Duration': 15}, {u'Onset': 429, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 435, u'CS': u'vend.png', u'Duration': 8}, {u'Onset': 443, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 449, u'CS': u'vend.png', u'Duration': 13}, {u'Onset': 462, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 468, u'CS': u'vend.png', u'Duration': 7}, {u'Onset': 475, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 481, u'CS': u'vend.png', u'Duration': 7}, {u'Onset': 488, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 494, u'CS': u'vend.png', u'Duration': 8}, {u'Onset': 502, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 508, u'CS': u'vend.png', u'Duration': 8}, {u'Onset': 516, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 522, u'CS': u'vend.png', u'Duration': 15}, {u'Onset': 537, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 543, u'CS': u'vend.png', u'Duration': 3}, {u'Onset': 546, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 552, u'CS': u'vend.png', u'Duration': 9}, {u'Onset': 561, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 567, u'CS': u'vend.png', u'Duration': 12}, {u'Onset': 579, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 585, u'CS': u'vend.png', u'Duration': 15}, {u'Onset': 600, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 606, u'CS': u'vend.png', u'Duration': 10}, {u'Onset': 616, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 622, u'CS': u'vend.png', u'Duration': 15}, {u'Onset': 637, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 643, u'CS': u'vend.png', u'Duration': 9}, {u'Onset': 652, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 658, u'CS': u'vend.png', u'Duration': 11}, {u'Onset': 669, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 675, u'CS': u'vend.png', u'Duration': 11}, {u'Onset': 686, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 692, u'CS': u'vend.png', u'Duration': 8}, {u'Onset': 700, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 706, u'CS': u'vend.png', u'Duration': 12}, {u'Onset': 718, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 724, u'CS': u'vend.png', u'Duration': 12}, {u'Onset': 736, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 742, u'CS': u'vend.png', u'Duration': 5}, {u'Onset': 747, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 753, u'CS': u'vend.png', u'Duration': 13}, {u'Onset': 766, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 772, u'CS': u'vend.png', u'Duration': 11}, {u'Onset': 783, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 789, u'CS': u'vend.png', u'Duration': 10}, {u'Onset': 799, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 805, u'CS': u'vend.png', u'Duration': 10}, {u'Onset': 815, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 821, u'CS': u'vend.png', u'Duration': 11}, {u'Onset': 832, u'CS': u'yellow.png', u'Duration': 6}, {u'Onset': 838, u'CS': u'vend.png', u'Duration': 7}, {u'Onset': 845, u'CS': u'red.png', u'Duration': 6}, {u'Onset': 851, u'CS': u'vend.png', u'Duration': 6}, {u'Onset': 857, u'CS': u'green.png', u'Duration': 6}, {u'Onset': 863, u'CS': u'vend.png', u'Duration': 16}, {u'Onset': 879, u'CS': u'blue.png', u'Duration': 6}, {u'Onset': 885, u'CS': u'vend.png', u'Duration': 9}, {u'Onset': 894, u'CS': u'yellow.png', u'Duration': 6}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+    </LoopInitiator>
+    <Routine name="test"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="feedback"/>
+  </Flow>
+</PsychoPy2experiment>
