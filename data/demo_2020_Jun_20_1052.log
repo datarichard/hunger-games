@@ -1,0 +1,263 @@
+0.7428 	ERROR 	Requested audio device 'auto' that is not available on this hardware. The 'audioDevice' preference should be one of [u'Built-in Output', u'ZoomAudioD']
+6.6902 	WARNING 	Unknown type in handleLineEditChange: inputFieldName=participant, type=<type 'unicode'>, value=d
+6.7582 	WARNING 	Unknown type in handleLineEditChange: inputFieldName=participant, type=<type 'unicode'>, value=de
+6.8621 	WARNING 	Unknown type in handleLineEditChange: inputFieldName=participant, type=<type 'unicode'>, value=dem
+6.8791 	WARNING 	Unknown type in handleLineEditChange: inputFieldName=participant, type=<type 'unicode'>, value=demo
+7.7459 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([-1., -1., -1.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x112184150>, multiSample=False, name='window1', numSamples=2, pos=[560.0, 270.0], screen=0, size=(1440, 900), stereo=False, units=u'norm', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.7459 	EXP 	window1: recordFrameIntervals = False
+7.9124 	EXP 	window1: recordFrameIntervals = True
+8.0960 	EXP 	window1: recordFrameIntervals = False
+8.3342 	EXP 	Created Ready = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='LightGray', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Helvetica Bold', fontFiles=[], height=0.075, italic=False, name='Ready', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 211.,  211.,  211.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+8.4533 	EXP 	Created vend = PatchStim(autoDraw=False, autoLog=True, blendmode='avg', color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, interpolate=True, mask=None, maskParams=None, name='vend', opacity=1.0, ori=0.0, phase=array([ 0.,  0.]), pos=array([ 0.,  0.]), rgbPedestal=array([ 0.,  0.,  0.]), sf=array([ 1.,  1.]), size=array([ 1.5,  2. ]), tex='vend.png', texRes=128, units=u'norm', win=Window(...))
+8.4552 	EXP 	Created vend_CS = PatchStim(autoDraw=False, autoLog=True, blendmode='avg', color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask=None, maskParams=None, name='vend_CS', opacity=1.0, ori=0.0, phase=array([ 0.,  0.]), pos=array([ 0.,  0.]), rgbPedestal=array([ 0.,  0.,  0.]), sf=array([ 1.,  1.]), size=array([ 1.5,  2. ]), tex='sin', texRes=128, units=u'norm', win=Window(...))
+8.4565 	EXP 	Created Outcome = PatchStim(autoDraw=False, autoLog=True, blendmode='avg', color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, interpolate=True, mask=None, maskParams=None, name='Outcome', opacity=1.0, ori=0.0, phase=array([ 0.,  0.]), pos=array([ 0. , -0.4]), rgbPedestal=array([ 0.,  0.,  0.]), sf=array([ 1.,  1.]), size=array([ 0.4,  0.5]), tex='sin', texRes=128, units=u'norm', win=Window(...))
+8.5099 	EXP 	Created vend = PatchStim(autoDraw=False, autoLog=True, blendmode='avg', color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, interpolate=True, mask=None, maskParams=None, name='vend', opacity=1.0, ori=0.0, phase=array([ 0.,  0.]), pos=array([ 0.,  0.]), rgbPedestal=array([ 0.,  0.,  0.]), sf=array([ 1.,  1.]), size=array([ 1.5,  2. ]), tex='vend.png', texRes=128, units=u'norm', win=Window(...))
+8.5114 	EXP 	Created vend_testy = PatchStim(autoDraw=False, autoLog=True, blendmode='avg', color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=0.0, interpolate=True, mask=None, maskParams=None, name='vend_testy', opacity=1.0, ori=0.0, phase=array([ 0.,  0.]), pos=array([ 0.,  0.]), rgbPedestal=array([ 0.,  0.,  0.]), sf=array([ 1.,  1.]), size=array([ 1.5,  2. ]), tex='sin', texRes=128, units=u'norm', win=Window(...))
+8.5310 	EXP 	Created choice_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='LightGray', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Helvetica Bold', fontFiles=[], height=0.075, italic=False, name='choice_text', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=array([ 211.,  211.,  211.]), text=newstr(...), units=u'norm', win=Window(...), wrapWidth=1)
+8.5356 	EXP 	Created feedback_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='LightGray', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Helvetica Bold', fontFiles=[], height=0.075, italic=False, name='feedback_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 211.,  211.,  211.]), text='default text', units=u'norm', win=Window(...), wrapWidth=1)
+8.5425 	EXP 	Created Thankyou_text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='LightGray', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Helvetica Bold', fontFiles=[], height=0.075, italic=False, name='Thankyou_text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 211.,  211.,  211.]), text='     Thankyou!\n\nStage 2 completed', units=u'norm', win=Window(...), wrapWidth=1)
+8.5629 	EXP 	Ready: autoDraw = True
+15.2535 	DATA 	Keypress: space
+15.2573 	EXP 	Imported Pavlovian_blocks.xlsx as conditions, 4 conditions, 2 params
+15.2576 	EXP 	Created sequence: random, trialTypes=4, nReps=3, seed=None
+15.2578 	EXP 	New trial (rep=0, index=0): {'testCS': u'blue.png', 'correctAns': u'c'}
+15.2600 	EXP 	Imported Pavlovian_trials.xlsx as conditions, 4 conditions, 2 params
+15.2602 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+15.2604 	EXP 	New trial (rep=0, index=0): {'CS': u'yellow.png', 'US': u'empty.png'}
+15.2850 	EXP 	Ready: autoDraw = False
+15.2850 	EXP 	vend: autoDraw = True
+15.8032 	DATA 	Keypress: right
+16.2031 	DATA 	Keypress: left
+16.4371 	DATA 	Keypress: space
+18.3377 	EXP 	vend: autoDraw = False
+18.3377 	EXP 	vend_CS: color = '[ 1.  1.  1.] (rgb)'
+18.3377 	EXP 	vend_CS: tex = u'yellow.png'
+18.3377 	EXP 	Outcome: tex = u'empty.png'
+18.3377 	EXP 	vend_CS: autoDraw = True
+18.5052 	DATA 	Keypress: z
+18.6907 	DATA 	Keypress: z
+19.1227 	DATA 	Keypress: x
+19.3384 	EXP 	Outcome: autoDraw = True
+19.6398 	DATA 	Keypress: period
+19.8249 	DATA 	Keypress: period
+19.8899 	DATA 	Keypress: comma
+20.2403 	DATA 	Keypress: slash
+20.6422 	DATA 	Keypress: slash
+20.9074 	DATA 	Keypress: a
+21.1093 	DATA 	Keypress: a
+21.2569 	EXP 	New trial (rep=0, index=1): {'CS': u'red.png', 'US': u'M&M.png'}
+21.2731 	EXP 	vend_CS: autoDraw = False
+21.2731 	EXP 	Outcome: autoDraw = False
+21.2731 	EXP 	vend: autoDraw = True
+21.7080 	DATA 	Keypress: z
+21.7745 	DATA 	Keypress: a
+21.8599 	DATA 	Keypress: a
+22.7089 	DATA 	Keypress: p
+22.9086 	DATA 	Keypress: q
+23.0592 	DATA 	Keypress: p
+23.2093 	DATA 	Keypress: w
+23.4760 	DATA 	Keypress: s
+23.5261 	DATA 	Keypress: l
+24.0932 	DATA 	Keypress: left
+24.3740 	DATA 	Keypress: left
+24.3926 	EXP 	vend: autoDraw = False
+24.3926 	EXP 	vend_CS: color = '[ 1.  1.  1.] (rgb)'
+24.3926 	EXP 	vend_CS: tex = u'red.png'
+24.3926 	EXP 	Outcome: tex = u'M&M.png'
+24.3926 	EXP 	vend_CS: autoDraw = True
+24.4935 	DATA 	Keypress: right
+24.7110 	DATA 	Keypress: right
+24.9094 	DATA 	Keypress: down
+25.0261 	DATA 	Keypress: left
+25.1429 	DATA 	Keypress: right
+25.1759 	DATA 	Keypress: down
+25.3923 	EXP 	Outcome: autoDraw = True
+25.6097 	DATA 	Keypress: rctrl
+25.7933 	DATA 	Keypress: roption
+25.9100 	DATA 	Keypress: rctrl
+26.2273 	DATA 	Keypress: slash
+26.3443 	DATA 	Keypress: period
+26.6779 	DATA 	Keypress: comma
+26.8945 	DATA 	Keypress: period
+26.8954 	DATA 	Keypress: slash
+27.0782 	DATA 	Keypress: period
+27.1614 	DATA 	Keypress: comma
+27.2613 	EXP 	New trial (rep=0, index=2): {'CS': u'blue.png', 'US': u'teddy.png'}
+27.2770 	EXP 	vend_CS: autoDraw = False
+27.2770 	EXP 	Outcome: autoDraw = False
+27.2770 	EXP 	vend: autoDraw = True
+27.4117 	DATA 	Keypress: d
+27.4286 	DATA 	Keypress: l
+27.5119 	DATA 	Keypress: s
+27.6452 	DATA 	Keypress: semicolon
+27.9621 	DATA 	Keypress: q
+27.9955 	DATA 	Keypress: o
+27.9962 	DATA 	Keypress: w
+28.2954 	DATA 	Keypress: p
+28.3122 	DATA 	Keypress: e
+28.4795 	DATA 	Keypress: o
+28.7127 	DATA 	Keypress: r
+28.7135 	DATA 	Keypress: e
+28.7627 	DATA 	Keypress: t
+28.7961 	DATA 	Keypress: bracketleft
+29.1131 	DATA 	Keypress: e
+29.1297 	DATA 	Keypress: t
+29.1304 	DATA 	Keypress: y
+29.1630 	DATA 	Keypress: p
+29.2297 	DATA 	Keypress: bracketleft
+29.3465 	DATA 	Keypress: o
+29.4301 	DATA 	Keypress: t
+29.4308 	DATA 	Keypress: r
+29.4798 	DATA 	Keypress: y
+29.7471 	DATA 	Keypress: u
+29.7635 	DATA 	Keypress: h
+29.8138 	DATA 	Keypress: t
+29.8147 	DATA 	Keypress: r
+29.8307 	DATA 	Keypress: i
+29.9137 	DATA 	Keypress: p
+30.1305 	DATA 	Keypress: b
+30.2474 	DATA 	Keypress: f
+30.2482 	DATA 	Keypress: g
+30.2488 	DATA 	Keypress: m
+30.3873 	DATA 	Keypress: n
+30.3880 	DATA 	Keypress: slash
+30.3962 	EXP 	vend: autoDraw = False
+30.3962 	EXP 	vend_CS: color = '[ 1.  1.  1.] (rgb)'
+30.3962 	EXP 	vend_CS: tex = u'blue.png'
+30.3962 	EXP 	Outcome: tex = u'teddy.png'
+30.3962 	EXP 	vend_CS: autoDraw = True
+30.4975 	DATA 	Keypress: b
+30.5642 	DATA 	Keypress: m
+30.5809 	DATA 	Keypress: comma
+30.7143 	DATA 	Keypress: n
+30.8143 	DATA 	Keypress: b
+30.8811 	DATA 	Keypress: v
+30.8818 	DATA 	Keypress: c
+30.8981 	DATA 	Keypress: comma
+30.9148 	DATA 	Keypress: period
+30.9481 	DATA 	Keypress: x
+31.0145 	DATA 	Keypress: slash
+31.0477 	DATA 	Keypress: b
+31.2313 	DATA 	Keypress: comma
+31.3971 	EXP 	Outcome: autoDraw = True
+31.9155 	DATA 	Keypress: z
+32.1323 	DATA 	Keypress: a
+32.3657 	DATA 	Keypress: q
+32.5676 	DATA 	Keypress: q
+32.8828 	DATA 	Keypress: w
+32.9496 	DATA 	Keypress: q
+33.2656 	EXP 	New trial (rep=0, index=3): {'CS': u'green.png', 'US': u'BBQ.png'}
+33.2820 	EXP 	vend_CS: autoDraw = False
+33.2820 	EXP 	Outcome: autoDraw = False
+33.2820 	EXP 	vend: autoDraw = True
+33.2832 	DATA 	Keypress: 1
+33.4165 	DATA 	Keypress: 2
+33.6835 	DATA 	Keypress: 1
+33.7169 	DATA 	Keypress: 2
+34.0336 	DATA 	Keypress: 3
+34.0672 	DATA 	Keypress: 2
+34.3175 	DATA 	Keypress: 3
+34.3183 	DATA 	Keypress: 4
+34.5689 	DATA 	Keypress: 4
+34.5696 	DATA 	Keypress: 5
+34.7510 	DATA 	Keypress: 9
+34.8346 	DATA 	Keypress: 6
+34.8353 	DATA 	Keypress: 7
+34.8511 	DATA 	Keypress: 4
+35.0846 	DATA 	Keypress: 6
+35.0853 	DATA 	Keypress: 7
+35.1013 	DATA 	Keypress: 5
+35.1515 	DATA 	Keypress: 0
+35.1681 	DATA 	Keypress: minus
+35.3849 	DATA 	Keypress: 8
+35.3856 	DATA 	Keypress: 6
+35.3862 	DATA 	Keypress: 7
+35.4183 	DATA 	Keypress: equal
+35.9184 	DATA 	Keypress: 8
+35.9518 	DATA 	Keypress: 9
+36.4012 	EXP 	vend: autoDraw = False
+36.4012 	EXP 	vend_CS: color = '[ 1.  1.  1.] (rgb)'
+36.4012 	EXP 	vend_CS: tex = u'green.png'
+36.4012 	EXP 	Outcome: tex = u'BBQ.png'
+36.4012 	EXP 	vend_CS: autoDraw = True
+37.2541 	DATA 	Keypress: num_1
+37.3374 	DATA 	Keypress: num_2
+37.4031 	EXP 	Outcome: autoDraw = True
+37.4210 	DATA 	Keypress: num_3
+37.7712 	DATA 	Keypress: num_5
+37.7879 	DATA 	Keypress: num_6
+37.8546 	DATA 	Keypress: num_4
+38.0882 	DATA 	Keypress: num_8
+38.1048 	DATA 	Keypress: num_9
+38.1883 	DATA 	Keypress: num_7
+38.7051 	DATA 	Keypress: num_0
+38.8554 	DATA 	Keypress: num_decimal
+39.0740 	DATA 	Keypress: num_decimal
+39.2714 	EXP 	vend_CS: autoDraw = False
+39.2714 	EXP 	Outcome: autoDraw = False
+39.2714 	EXP 	vend: autoDraw = True
+39.9062 	DATA 	Keypress: num_enter
+40.2746 	DATA 	Keypress: num_enter
+41.2904 	DATA 	Keypress: delete
+41.3404 	DATA 	Keypress: end
+41.4238 	DATA 	Keypress: pagedown
+41.8909 	DATA 	Keypress: pageup
+41.9577 	DATA 	Keypress: home
+42.0241 	DATA 	Keypress: function
+42.3153 	EXP 	vend: autoDraw = False
+42.3153 	EXP 	vend_testy: tex = u'blue.png'
+42.3153 	EXP 	vend_testy: autoDraw = True
+42.9077 	DATA 	Keypress: equal
+43.2913 	DATA 	Keypress: 0
+43.3069 	EXP 	choice_text: autoDraw = True
+43.3915 	DATA 	Keypress: minus
+43.4081 	DATA 	Keypress: equal
+43.7599 	DATA 	Keypress: equal
+43.8251 	DATA 	Keypress: grave
+43.9252 	DATA 	Keypress: 1
+44.3753 	DATA 	Keypress: 2
+44.4589 	DATA 	Keypress: 1
+47.0611 	DATA 	Keypress: a
+47.0619 	DATA 	Oops!
+47.0766 	EXP 	vend_testy: autoDraw = False
+47.0766 	EXP 	choice_text: autoDraw = False
+47.0766 	EXP 	feedback_text: text = 'Oops! That was wrong'
+47.0766 	EXP 	feedback_text: autoDraw = True
+48.0613 	EXP 	New trial (rep=0, index=1): {'testCS': u'green.png', 'correctAns': u'b'}
+48.0638 	EXP 	Imported Pavlovian_trials.xlsx as conditions, 4 conditions, 2 params
+48.0641 	EXP 	Created sequence: random, trialTypes=4, nReps=1, seed=None
+48.0643 	EXP 	New trial (rep=0, index=0): {'CS': u'blue.png', 'US': u'teddy.png'}
+48.0773 	EXP 	feedback_text: autoDraw = False
+48.0773 	EXP 	feedback_text: autoDraw = False
+48.0773 	EXP 	vend: autoDraw = True
+51.1973 	EXP 	vend: autoDraw = False
+51.1973 	EXP 	vend_CS: color = '[ 1.  1.  1.] (rgb)'
+51.1973 	EXP 	vend_CS: tex = u'blue.png'
+51.1973 	EXP 	Outcome: tex = u'teddy.png'
+51.1973 	EXP 	vend_CS: autoDraw = True
+52.1987 	EXP 	Outcome: autoDraw = True
+54.0671 	EXP 	New trial (rep=0, index=1): {'CS': u'red.png', 'US': u'M&M.png'}
+54.0834 	EXP 	vend_CS: autoDraw = False
+54.0834 	EXP 	Outcome: autoDraw = False
+54.0834 	EXP 	vend: autoDraw = True
+57.1892 	EXP 	vend: autoDraw = False
+57.1892 	EXP 	vend_CS: color = '[ 1.  1.  1.] (rgb)'
+57.1892 	EXP 	vend_CS: tex = u'red.png'
+57.1892 	EXP 	Outcome: tex = u'M&M.png'
+57.1892 	EXP 	vend_CS: autoDraw = True
+58.1868 	EXP 	Outcome: autoDraw = True
+60.0721 	EXP 	New trial (rep=0, index=2): {'CS': u'yellow.png', 'US': u'empty.png'}
+60.0883 	EXP 	vend_CS: autoDraw = False
+60.0883 	EXP 	Outcome: autoDraw = False
+60.0883 	EXP 	vend: autoDraw = True
+63.1408 	EXP 	vend: autoDraw = False
+63.1408 	EXP 	vend_CS: color = '[ 1.  1.  1.] (rgb)'
+63.1408 	EXP 	vend_CS: tex = u'yellow.png'
+63.1408 	EXP 	Outcome: tex = u'empty.png'
+63.1408 	EXP 	vend_CS: autoDraw = True
+64.1416 	EXP 	Outcome: autoDraw = True
+66.0770 	EXP 	New trial (rep=0, index=3): {'CS': u'green.png', 'US': u'BBQ.png'}
+66.0933 	EXP 	vend_CS: autoDraw = False
+66.0933 	EXP 	Outcome: autoDraw = False
+66.0933 	EXP 	vend: autoDraw = True
+66.3109 	DATA 	Keypress: escape
