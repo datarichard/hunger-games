@@ -1,0 +1,701 @@
+12.2793 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+12.7500 	WARNING 	t of last frame was 20.03ms (=1/49)
+12.9497 	WARNING 	t of last frame was 20.32ms (=1/49)
+14.1149 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+14.6479 	DATA 	version A
+15.2291 	WARNING 	t of last frame was 1114.31ms (=1/0)
+16.4669 	WARNING 	t of last frame was 21.04ms (=1/47)
+17.2413 	DATA 	start_images/fix.png
+17.2459 	DATA 	Keypress: space
+17.2760 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+23.2643 	DATA 	end_images/fix.png
+23.3141 	DATA 	start_images/red.png
+24.3147 	DATA 	Keypress: t
+24.6192 	DATA 	Keypress: t
+24.8985 	DATA 	Keypress: t
+25.1811 	DATA 	Keypress: t
+25.3809 	DATA 	Keypress: t
+25.6485 	DATA 	Keypress: t
+25.9493 	DATA 	Keypress: t
+26.2326 	DATA 	Keypress: t
+26.4980 	DATA 	Keypress: t
+26.7975 	DATA 	Keypress: t
+27.0829 	DATA 	Keypress: t
+27.6479 	DATA 	Keypress: t
+27.9313 	DATA 	Keypress: t
+28.2331 	DATA 	Keypress: t
+28.3142 	DATA 	end_images/red.png
+28.3635 	DATA 	start_images/vend.png
+28.4996 	DATA 	Keypress: t
+37.3645 	DATA 	end_images/vend.png
+37.4138 	DATA 	start_images/blue.png
+38.6810 	DATA 	Keypress: t
+38.8494 	DATA 	Keypress: v
+39.0828 	DATA 	Keypress: t
+39.1982 	DATA 	Keypress: v
+39.5166 	DATA 	Keypress: t
+39.9146 	DATA 	Keypress: v
+40.1144 	DATA 	Keypress: v
+40.3645 	DATA 	Keypress: t
+40.5994 	DATA 	Keypress: t
+41.1479 	DATA 	Keypress: v
+41.3646 	DATA 	Keypress: v
+41.6811 	DATA 	Keypress: t
+42.1475 	DATA 	Keypress: v
+42.4138 	DATA 	end_images/blue.png
+42.4639 	DATA 	start_images/vend.png
+42.4664 	DATA 	Keypress: t
+51.4638 	DATA 	end_images/vend.png
+51.5138 	DATA 	start_images/green.png
+52.8314 	DATA 	Keypress: v
+53.0813 	DATA 	Keypress: v
+53.3484 	DATA 	Keypress: v
+53.6160 	DATA 	Keypress: v
+53.8993 	DATA 	Keypress: v
+54.1656 	DATA 	Keypress: v
+54.4326 	DATA 	Keypress: v
+54.6829 	DATA 	Keypress: v
+54.9478 	DATA 	Keypress: v
+55.2314 	DATA 	Keypress: v
+56.2475 	DATA 	Keypress: v
+56.5123 	DATA 	end_images/green.png
+56.5522 	DATA 	start_images/vend.png
+59.3329 	DATA 	Keypress: v
+65.5474 	DATA 	end_images/vend.png
+65.5970 	DATA 	start_images/yellow.png
+67.1644 	DATA 	Keypress: t
+70.0978 	DATA 	Keypress: v
+70.5970 	DATA 	end_images/yellow.png
+70.6470 	DATA 	start_images/vend.png
+79.6474 	DATA 	end_images/vend.png
+79.6964 	DATA 	start_images/red.png
+80.9495 	DATA 	Keypress: t
+81.1979 	DATA 	Keypress: t
+81.4648 	DATA 	Keypress: t
+81.7496 	DATA 	Keypress: t
+81.9975 	DATA 	Keypress: t
+82.4996 	DATA 	Keypress: t
+82.7658 	DATA 	Keypress: t
+83.0159 	DATA 	Keypress: t
+83.2816 	DATA 	Keypress: t
+83.5482 	DATA 	Keypress: t
+83.8643 	DATA 	Keypress: t
+84.6969 	DATA 	end_images/red.png
+84.7532 	DATA 	start_images/vend.png
+84.7563 	DATA 	Keypress: t
+85.0160 	DATA 	Keypress: t
+93.7807 	DATA 	end_images/vend.png
+93.8307 	DATA 	start_images/green.png
+94.9976 	DATA 	Keypress: v
+95.2315 	DATA 	Keypress: v
+95.4810 	DATA 	Keypress: v
+95.7315 	DATA 	Keypress: v
+95.9647 	DATA 	Keypress: v
+96.1977 	DATA 	Keypress: v
+96.6320 	DATA 	Keypress: v
+96.8674 	DATA 	Keypress: v
+97.1308 	DATA 	Keypress: v
+97.3812 	DATA 	Keypress: v
+97.6325 	DATA 	Keypress: v
+97.8990 	DATA 	Keypress: v
+98.1334 	DATA 	Keypress: v
+98.3816 	DATA 	Keypress: v
+98.6661 	DATA 	Keypress: v
+98.8306 	DATA 	end_images/green.png
+98.8804 	DATA 	start_images/vend.png
+107.8807 	DATA 	end_images/vend.png
+107.9211 	DATA 	start_images/blue.png
+110.2647 	DATA 	Keypress: t
+110.4146 	DATA 	Keypress: v
+110.8819 	DATA 	Keypress: v
+111.0820 	DATA 	Keypress: t
+111.5660 	DATA 	Keypress: t
+111.7975 	DATA 	Keypress: v
+112.6651 	DATA 	Keypress: v
+112.9140 	DATA 	end_images/blue.png
+112.9635 	DATA 	start_images/vend.png
+121.9639 	DATA 	end_images/vend.png
+122.0137 	DATA 	start_images/yellow.png
+123.6983 	DATA 	Keypress: v
+127.0307 	DATA 	end_images/yellow.png
+127.0806 	DATA 	start_images/vend.png
+136.0807 	DATA 	end_images/vend.png
+136.1306 	DATA 	start_images/red.png
+137.2151 	DATA 	Keypress: t
+137.4335 	DATA 	Keypress: t
+137.6477 	DATA 	Keypress: t
+137.8661 	DATA 	Keypress: t
+138.0996 	DATA 	Keypress: t
+138.3151 	DATA 	Keypress: t
+138.5495 	DATA 	Keypress: t
+138.7656 	DATA 	Keypress: t
+138.9665 	DATA 	Keypress: t
+139.1981 	DATA 	Keypress: t
+139.4328 	DATA 	Keypress: t
+139.6647 	DATA 	Keypress: t
+139.9161 	DATA 	Keypress: t
+140.2996 	DATA 	Keypress: t
+140.5652 	DATA 	Keypress: t
+140.8328 	DATA 	Keypress: t
+141.1308 	DATA 	end_images/red.png
+141.1812 	DATA 	start_images/vend.png
+150.1808 	DATA 	end_images/vend.png
+150.2306 	DATA 	start_images/green.png
+151.5168 	DATA 	Keypress: v
+151.7314 	DATA 	Keypress: v
+151.9657 	DATA 	Keypress: v
+152.1645 	DATA 	Keypress: v
+152.3475 	DATA 	Keypress: v
+152.5661 	DATA 	Keypress: v
+152.7645 	DATA 	Keypress: v
+152.9661 	DATA 	Keypress: v
+153.1650 	DATA 	Keypress: v
+153.3646 	DATA 	Keypress: v
+153.5828 	DATA 	Keypress: v
+153.7994 	DATA 	Keypress: v
+153.9980 	DATA 	Keypress: v
+154.1980 	DATA 	Keypress: v
+154.4147 	DATA 	Keypress: v
+154.6311 	DATA 	Keypress: v
+154.8644 	DATA 	Keypress: v
+155.1152 	DATA 	Keypress: v
+155.2308 	DATA 	end_images/green.png
+155.2816 	DATA 	start_images/vend.png
+155.3979 	DATA 	Keypress: v
+164.2804 	DATA 	end_images/vend.png
+164.3295 	DATA 	start_images/blue.png
+165.4481 	DATA 	Keypress: t
+165.7648 	DATA 	Keypress: v
+166.4146 	DATA 	Keypress: v
+166.8313 	DATA 	Keypress: t
+167.4478 	DATA 	Keypress: t
+167.9155 	DATA 	Keypress: v
+168.4482 	DATA 	Keypress: v
+168.9687 	DATA 	Keypress: t
+169.3313 	DATA 	end_images/blue.png
+169.3814 	DATA 	start_images/vend.png
+169.7637 	DATA 	Keypress: t
+178.3809 	DATA 	end_images/vend.png
+178.4297 	DATA 	start_images/yellow.png
+179.5993 	DATA 	Keypress: v
+183.4304 	DATA 	end_images/yellow.png
+183.4804 	DATA 	start_images/vend.png
+192.4804 	DATA 	end_images/vend.png
+192.5300 	DATA 	start_images/red.png
+193.6979 	DATA 	Keypress: t
+193.8966 	DATA 	Keypress: t
+194.0824 	DATA 	Keypress: t
+194.2804 	DATA 	Keypress: t
+194.4660 	DATA 	Keypress: t
+194.6480 	DATA 	Keypress: t
+194.8642 	DATA 	Keypress: t
+195.0992 	DATA 	Keypress: t
+195.3148 	DATA 	Keypress: t
+195.5665 	DATA 	Keypress: t
+195.7993 	DATA 	Keypress: t
+196.0313 	DATA 	Keypress: t
+196.2826 	DATA 	Keypress: t
+196.5145 	DATA 	Keypress: t
+196.7991 	DATA 	Keypress: t
+197.0660 	DATA 	Keypress: t
+197.5305 	DATA 	end_images/red.png
+197.5810 	DATA 	start_images/vend.png
+197.6643 	DATA 	Keypress: t
+197.8979 	DATA 	Keypress: t
+206.5805 	DATA 	end_images/vend.png
+206.6296 	DATA 	start_images/green.png
+209.3999 	DATA 	Keypress: v
+209.5977 	DATA 	Keypress: v
+209.7809 	DATA 	Keypress: v
+209.9661 	DATA 	Keypress: v
+210.1660 	DATA 	Keypress: v
+210.3660 	DATA 	Keypress: v
+210.5638 	DATA 	Keypress: v
+210.6979 	DATA 	Keypress: v
+210.9322 	DATA 	Keypress: v
+211.1493 	DATA 	Keypress: v
+211.3479 	DATA 	Keypress: v
+211.5648 	DATA 	Keypress: v
+211.6305 	DATA 	end_images/green.png
+211.6853 	DATA 	start_images/vend.png
+211.7981 	DATA 	Keypress: v
+212.0149 	DATA 	Keypress: v
+212.2807 	DATA 	Keypress: v
+212.5667 	DATA 	Keypress: v
+212.8481 	DATA 	Keypress: v
+220.6973 	DATA 	end_images/vend.png
+220.7453 	DATA 	start_images/blue.png
+221.9493 	DATA 	Keypress: t
+222.1324 	DATA 	Keypress: v
+222.4654 	DATA 	Keypress: t
+222.5824 	DATA 	Keypress: v
+222.9325 	DATA 	Keypress: t
+223.2641 	DATA 	Keypress: v
+223.6325 	DATA 	Keypress: v
+223.8984 	DATA 	Keypress: v
+224.2306 	DATA 	Keypress: t
+224.9982 	DATA 	Keypress: v
+225.2824 	DATA 	Keypress: v
+225.6168 	DATA 	Keypress: t
+225.7472 	DATA 	end_images/blue.png
+225.7973 	DATA 	start_images/vend.png
+234.7969 	DATA 	end_images/vend.png
+234.8519 	DATA 	start_images/yellow.png
+236.2313 	DATA 	Keypress: v
+239.8641 	DATA 	end_images/yellow.png
+239.9132 	DATA 	start_images/vend.png
+248.9138 	DATA 	end_images/vend.png
+248.9638 	DATA 	start_images/red.png
+249.7477 	DATA 	Keypress: t
+249.9493 	DATA 	Keypress: t
+250.1326 	DATA 	Keypress: t
+250.3158 	DATA 	Keypress: t
+250.6825 	DATA 	Keypress: t
+250.9494 	DATA 	Keypress: t
+251.1811 	DATA 	Keypress: t
+251.4140 	DATA 	Keypress: t
+251.8493 	DATA 	Keypress: t
+252.0654 	DATA 	Keypress: t
+252.4000 	DATA 	Keypress: t
+252.6143 	DATA 	Keypress: t
+252.8144 	DATA 	Keypress: t
+253.0326 	DATA 	Keypress: t
+253.2994 	DATA 	Keypress: t
+253.9494 	DATA 	Keypress: t
+253.9638 	DATA 	end_images/red.png
+254.0134 	DATA 	start_images/vend.png
+263.0141 	DATA 	end_images/vend.png
+263.0645 	DATA 	start_images/blue.png
+266.5476 	DATA 	Keypress: v
+266.9810 	DATA 	Keypress: v
+267.3664 	DATA 	Keypress: t
+268.0636 	DATA 	end_images/blue.png
+268.1135 	DATA 	start_images/vend.png
+268.1592 	DATA 	Keypress: t
+277.1138 	DATA 	end_images/vend.png
+277.1640 	DATA 	start_images/green.png
+278.7157 	DATA 	Keypress: v
+278.9496 	DATA 	Keypress: v
+279.1826 	DATA 	Keypress: v
+279.3314 	DATA 	Keypress: v
+279.5989 	DATA 	Keypress: v
+279.7832 	DATA 	Keypress: v
+279.9977 	DATA 	Keypress: v
+280.9493 	DATA 	Keypress: v
+281.4319 	DATA 	Keypress: v
+281.6652 	DATA 	Keypress: v
+282.1641 	DATA 	end_images/green.png
+282.2135 	DATA 	start_images/vend.png
+291.2138 	DATA 	end_images/vend.png
+291.2638 	DATA 	start_images/yellow.png
+292.2314 	DATA 	Keypress: v
+293.0495 	DATA 	Keypress: t
+296.2641 	DATA 	end_images/yellow.png
+296.3146 	DATA 	start_images/vend.png
+305.3138 	DATA 	end_images/vend.png
+305.3638 	DATA 	start_images/green.png
+306.3481 	DATA 	Keypress: v
+306.5663 	DATA 	Keypress: v
+306.8161 	DATA 	Keypress: v
+307.0493 	DATA 	Keypress: v
+307.2826 	DATA 	Keypress: v
+307.4979 	DATA 	Keypress: v
+307.7333 	DATA 	Keypress: v
+308.0141 	DATA 	Keypress: v
+308.9325 	DATA 	Keypress: v
+310.3642 	DATA 	end_images/green.png
+310.4185 	DATA 	start_images/vend.png
+310.5662 	DATA 	Keypress: v
+319.4305 	DATA 	end_images/vend.png
+319.4800 	DATA 	start_images/red.png
+320.4477 	DATA 	Keypress: t
+320.6664 	DATA 	Keypress: t
+320.9150 	DATA 	Keypress: t
+321.2640 	DATA 	Keypress: t
+321.6665 	DATA 	Keypress: t
+322.1985 	DATA 	Keypress: t
+322.8492 	DATA 	Keypress: t
+323.1643 	DATA 	Keypress: t
+323.5157 	DATA 	Keypress: t
+324.1989 	DATA 	Keypress: t
+324.4805 	DATA 	end_images/red.png
+324.5351 	DATA 	start_images/vend.png
+333.5473 	DATA 	end_images/vend.png
+333.5957 	DATA 	start_images/blue.png
+338.1971 	DATA 	Keypress: v
+338.4805 	DATA 	Keypress: t
+338.5966 	DATA 	end_images/blue.png
+338.6458 	DATA 	start_images/vend.png
+338.9145 	DATA 	Keypress: t
+347.6470 	DATA 	end_images/vend.png
+347.6963 	DATA 	start_images/yellow.png
+349.5478 	DATA 	Keypress: v
+352.6973 	DATA 	end_images/yellow.png
+352.7470 	DATA 	start_images/vend.png
+361.7470 	DATA 	end_images/vend.png
+361.7965 	DATA 	start_images/red.png
+363.2307 	DATA 	Keypress: t
+363.4157 	DATA 	Keypress: t
+363.5804 	DATA 	Keypress: t
+363.7657 	DATA 	Keypress: t
+363.9312 	DATA 	Keypress: t
+364.1146 	DATA 	Keypress: t
+364.3156 	DATA 	Keypress: t
+364.4990 	DATA 	Keypress: t
+364.6828 	DATA 	Keypress: t
+364.8990 	DATA 	Keypress: t
+365.1319 	DATA 	Keypress: t
+365.3807 	DATA 	Keypress: t
+366.0993 	DATA 	Keypress: t
+366.5326 	DATA 	Keypress: t
+366.7306 	DATA 	Keypress: t
+366.7993 	DATA 	end_images/red.png
+366.8518 	DATA 	start_images/vend.png
+375.8638 	DATA 	end_images/vend.png
+375.9128 	DATA 	start_images/green.png
+376.8141 	DATA 	Keypress: v
+376.9307 	DATA 	Keypress: v
+377.0321 	DATA 	Keypress: v
+377.2310 	DATA 	Keypress: v
+377.4324 	DATA 	Keypress: v
+377.8323 	DATA 	Keypress: v
+378.2474 	DATA 	Keypress: v
+378.4476 	DATA 	Keypress: v
+378.8654 	DATA 	Keypress: v
+379.5642 	DATA 	Keypress: v
+380.2476 	DATA 	Keypress: v
+380.5304 	DATA 	Keypress: v
+380.7982 	DATA 	Keypress: v
+380.9142 	DATA 	end_images/green.png
+380.9636 	DATA 	start_images/vend.png
+389.9638 	DATA 	end_images/vend.png
+390.0132 	DATA 	start_images/blue.png
+391.1803 	DATA 	Keypress: t
+391.4642 	DATA 	Keypress: v
+391.7478 	DATA 	Keypress: v
+392.0822 	DATA 	Keypress: v
+392.6310 	DATA 	Keypress: t
+392.9657 	DATA 	Keypress: t
+393.2310 	DATA 	Keypress: t
+393.4638 	DATA 	Keypress: v
+393.8649 	DATA 	Keypress: v
+394.1643 	DATA 	Keypress: t
+394.5480 	DATA 	Keypress: v
+394.8166 	DATA 	Keypress: v
+395.0139 	DATA 	end_images/blue.png
+395.0632 	DATA 	start_images/vend.png
+395.1305 	DATA 	Keypress: v
+404.0639 	DATA 	end_images/vend.png
+404.1186 	DATA 	start_images/yellow.png
+406.5647 	DATA 	Keypress: t
+409.1304 	DATA 	end_images/yellow.png
+409.1850 	DATA 	start_images/vend.png
+418.1971 	DATA 	end_images/vend.png
+418.2470 	DATA 	start_images/red.png
+419.7313 	DATA 	Keypress: t
+419.9143 	DATA 	Keypress: t
+420.1139 	DATA 	Keypress: t
+420.4333 	DATA 	Keypress: t
+420.6645 	DATA 	Keypress: t
+420.8810 	DATA 	Keypress: t
+421.3978 	DATA 	Keypress: v
+421.8142 	DATA 	Keypress: v
+422.1644 	DATA 	Keypress: t
+422.3810 	DATA 	Keypress: t
+422.7990 	DATA 	Keypress: t
+423.0643 	DATA 	Keypress: t
+423.2471 	DATA 	end_images/red.png
+423.2970 	DATA 	start_images/vend.png
+423.3126 	DATA 	Keypress: v
+423.5498 	DATA 	Keypress: v
+432.2971 	DATA 	end_images/vend.png
+432.3462 	DATA 	start_images/blue.png
+434.6498 	DATA 	Keypress: v
+434.9160 	DATA 	Keypress: v
+435.2149 	DATA 	Keypress: t
+435.4990 	DATA 	Keypress: t
+435.7318 	DATA 	Keypress: v
+436.0490 	DATA 	Keypress: v
+437.3487 	DATA 	end_images/blue.png
+437.3952 	DATA 	start_images/vend.png
+437.4808 	DATA 	Keypress: t
+446.3972 	DATA 	end_images/vend.png
+446.4473 	DATA 	start_images/green.png
+448.4816 	DATA 	Keypress: v
+449.1143 	DATA 	Keypress: v
+449.2643 	DATA 	Keypress: t
+449.5490 	DATA 	Keypress: t
+449.8482 	DATA 	Keypress: v
+450.3969 	DATA 	Keypress: v
+450.7816 	DATA 	Keypress: v
+451.0310 	DATA 	Keypress: t
+451.4459 	DATA 	end_images/green.png
+451.4975 	DATA 	start_images/vend.png
+451.5470 	DATA 	Keypress: t
+452.1145 	DATA 	Keypress: t
+460.4971 	DATA 	end_images/vend.png
+460.5471 	DATA 	start_images/yellow.png
+461.7159 	DATA 	Keypress: v
+465.5471 	DATA 	end_images/yellow.png
+465.5973 	DATA 	start_images/vend.png
+474.5971 	DATA 	end_images/vend.png
+474.6516 	DATA 	start_images/red.png
+476.1983 	DATA 	Keypress: t
+476.3479 	DATA 	Keypress: t
+476.5159 	DATA 	Keypress: t
+476.6641 	DATA 	Keypress: t
+476.8141 	DATA 	Keypress: t
+477.0973 	DATA 	Keypress: v
+477.3142 	DATA 	Keypress: v
+477.4801 	DATA 	Keypress: v
+478.0330 	DATA 	Keypress: t
+478.4483 	DATA 	Keypress: v
+478.7138 	DATA 	Keypress: t
+478.9003 	DATA 	Keypress: t
+479.0642 	DATA 	Keypress: t
+479.3970 	DATA 	Keypress: v
+479.6639 	DATA 	end_images/red.png
+479.7134 	DATA 	start_images/vend.png
+479.7302 	DATA 	Keypress: v
+480.0490 	DATA 	Keypress: t
+488.7118 	DATA 	end_images/vend.png
+488.7517 	DATA 	start_images/green.png
+493.7471 	DATA 	end_images/green.png
+493.7965 	DATA 	start_images/vend.png
+493.9970 	DATA 	Keypress: v
+494.1644 	DATA 	Keypress: v
+502.7971 	DATA 	end_images/vend.png
+502.8471 	DATA 	start_images/blue.png
+503.8978 	DATA 	Keypress: t
+504.2313 	DATA 	Keypress: v
+504.4323 	DATA 	Keypress: v
+504.5471 	DATA 	Keypress: t
+507.8471 	DATA 	end_images/blue.png
+507.8952 	DATA 	start_images/vend.png
+516.8970 	DATA 	end_images/vend.png
+516.9462 	DATA 	start_images/yellow.png
+518.7991 	DATA 	Keypress: t
+521.9468 	DATA 	end_images/yellow.png
+521.9959 	DATA 	start_images/vend.png
+530.9972 	DATA 	end_images/vend.png
+531.0515 	DATA 	start_images/red.png
+532.1823 	DATA 	Keypress: t
+532.6157 	DATA 	Keypress: v
+532.9142 	DATA 	Keypress: v
+533.2316 	DATA 	Keypress: t
+533.6030 	DATA 	Keypress: t
+534.0657 	DATA 	Keypress: v
+534.2804 	DATA 	Keypress: v
+534.5137 	DATA 	Keypress: v
+534.7818 	DATA 	Keypress: t
+535.2475 	DATA 	Keypress: t
+535.5490 	DATA 	Keypress: t
+535.8482 	DATA 	Keypress: t
+536.0638 	DATA 	end_images/red.png
+536.1187 	DATA 	start_images/vend.png
+536.1216 	DATA 	Keypress: t
+536.2641 	DATA 	Keypress: t
+536.4486 	DATA 	Keypress: t
+545.1304 	DATA 	end_images/vend.png
+545.1803 	DATA 	start_images/green.png
+547.4490 	DATA 	Keypress: v
+547.6979 	DATA 	Keypress: t
+547.9138 	DATA 	Keypress: t
+548.2483 	DATA 	Keypress: v
+548.4995 	DATA 	Keypress: v
+548.7141 	DATA 	Keypress: v
+548.9001 	DATA 	Keypress: v
+549.1822 	DATA 	Keypress: t
+549.5472 	DATA 	Keypress: v
+549.7822 	DATA 	Keypress: v
+549.9990 	DATA 	Keypress: v
+550.1804 	DATA 	end_images/green.png
+550.2336 	DATA 	start_images/vend.png
+550.2359 	DATA 	Keypress: v
+550.4803 	DATA 	Keypress: v
+550.7143 	DATA 	Keypress: v
+551.1971 	DATA 	Keypress: t
+559.2471 	DATA 	end_images/vend.png
+559.2965 	DATA 	start_images/blue.png
+564.2968 	DATA 	end_images/blue.png
+564.3462 	DATA 	start_images/vend.png
+573.3468 	DATA 	end_images/vend.png
+573.3963 	DATA 	start_images/yellow.png
+574.5324 	DATA 	Keypress: t
+578.3971 	DATA 	end_images/yellow.png
+578.4457 	DATA 	start_images/vend.png
+587.4468 	DATA 	end_images/vend.png
+587.4964 	DATA 	start_images/red.png
+588.1486 	DATA 	Keypress: t
+588.3320 	DATA 	Keypress: t
+588.5639 	DATA 	Keypress: t
+588.8654 	DATA 	Keypress: t
+590.0325 	DATA 	Keypress: v
+590.5487 	DATA 	Keypress: t
+591.7653 	DATA 	Keypress: v
+592.3974 	DATA 	Keypress: v
+592.4979 	DATA 	end_images/red.png
+592.5473 	DATA 	start_images/vend.png
+601.5471 	DATA 	end_images/vend.png
+601.6014 	DATA 	start_images/green.png
+603.8982 	DATA 	Keypress: v
+604.0986 	DATA 	Keypress: v
+604.4469 	DATA 	Keypress: t
+604.8488 	DATA 	Keypress: t
+605.2974 	DATA 	Keypress: v
+605.5468 	DATA 	Keypress: v
+605.7470 	DATA 	Keypress: v
+606.0142 	DATA 	Keypress: t
+606.4160 	DATA 	Keypress: v
+606.6135 	DATA 	end_images/green.png
+606.6629 	DATA 	start_images/vend.png
+606.6797 	DATA 	Keypress: v
+606.9467 	DATA 	Keypress: t
+607.3475 	DATA 	Keypress: t
+607.6814 	DATA 	Keypress: v
+615.6636 	DATA 	end_images/vend.png
+615.7116 	DATA 	start_images/blue.png
+620.1660 	DATA 	Keypress: t
+620.4646 	DATA 	Keypress: v
+620.7137 	DATA 	end_images/blue.png
+620.7680 	DATA 	start_images/vend.png
+621.0155 	DATA 	Keypress: v
+629.7801 	DATA 	end_images/vend.png
+629.8295 	DATA 	start_images/yellow.png
+634.8302 	DATA 	end_images/yellow.png
+634.8796 	DATA 	start_images/vend.png
+643.8808 	DATA 	end_images/vend.png
+643.9281 	DATA 	start_images/red.png
+644.9634 	DATA 	Keypress: t
+645.1322 	DATA 	Keypress: t
+645.5808 	DATA 	Keypress: t
+647.1473 	DATA 	Keypress: v
+648.6322 	DATA 	Keypress: v
+648.9304 	DATA 	end_images/red.png
+648.9842 	DATA 	start_images/vend.png
+657.9969 	DATA 	end_images/vend.png
+658.0470 	DATA 	start_images/blue.png
+659.2480 	DATA 	Keypress: t
+659.4134 	DATA 	Keypress: t
+659.5637 	DATA 	Keypress: t
+659.6810 	DATA 	Keypress: t
+659.8822 	DATA 	Keypress: t
+660.0322 	DATA 	Keypress: t
+660.1655 	DATA 	Keypress: t
+660.2494 	DATA 	Keypress: t
+660.4471 	DATA 	Keypress: t
+660.5811 	DATA 	Keypress: t
+660.6807 	DATA 	Keypress: t
+660.8315 	DATA 	Keypress: t
+661.1304 	DATA 	Keypress: t
+661.4135 	DATA 	Keypress: v
+663.0468 	DATA 	end_images/blue.png
+663.0969 	DATA 	start_images/vend.png
+672.0969 	DATA 	end_images/vend.png
+672.1460 	DATA 	start_images/green.png
+673.3323 	DATA 	Keypress: v
+673.9318 	DATA 	Keypress: v
+674.1809 	DATA 	Keypress: v
+674.8306 	DATA 	Keypress: v
+675.0471 	DATA 	Keypress: v
+675.2140 	DATA 	Keypress: v
+675.5141 	DATA 	Keypress: v
+675.8140 	DATA 	Keypress: v
+676.5820 	DATA 	Keypress: t
+677.1151 	DATA 	Keypress: t
+677.1469 	DATA 	end_images/green.png
+677.1970 	DATA 	start_images/vend.png
+686.1969 	DATA 	end_images/vend.png
+686.2448 	DATA 	start_images/yellow.png
+687.7478 	DATA 	Keypress: t
+691.2469 	DATA 	end_images/yellow.png
+691.3013 	DATA 	start_images/vend.png
+700.3132 	DATA 	end_images/vend.png
+700.3632 	DATA 	start_images/green.png
+700.9795 	DATA 	Keypress: v
+701.8303 	DATA 	Keypress: v
+702.1135 	DATA 	Keypress: v
+702.5308 	DATA 	Keypress: v
+702.8805 	DATA 	Keypress: v
+704.0131 	DATA 	Keypress: t
+704.6979 	DATA 	Keypress: v
+705.3633 	DATA 	end_images/green.png
+705.4125 	DATA 	start_images/vend.png
+705.4154 	DATA 	Keypress: v
+714.4133 	DATA 	end_images/vend.png
+714.4634 	DATA 	start_images/red.png
+715.7305 	DATA 	Keypress: t
+715.9151 	DATA 	Keypress: t
+716.1133 	DATA 	Keypress: t
+716.3136 	DATA 	Keypress: t
+716.4976 	DATA 	Keypress: t
+716.8487 	DATA 	Keypress: t
+717.8995 	DATA 	Keypress: t
+718.5638 	DATA 	Keypress: t
+718.8320 	DATA 	Keypress: t
+719.0809 	DATA 	Keypress: t
+719.4632 	DATA 	end_images/red.png
+719.5131 	DATA 	start_images/vend.png
+728.5136 	DATA 	end_images/vend.png
+728.5627 	DATA 	start_images/blue.png
+729.5651 	DATA 	Keypress: v
+729.7651 	DATA 	Keypress: t
+730.0472 	DATA 	Keypress: t
+730.2639 	DATA 	Keypress: v
+730.5309 	DATA 	Keypress: t
+730.9140 	DATA 	Keypress: t
+731.0477 	DATA 	Keypress: v
+732.4635 	DATA 	Keypress: t
+733.5635 	DATA 	end_images/blue.png
+733.6179 	DATA 	start_images/vend.png
+742.6300 	DATA 	end_images/vend.png
+742.6791 	DATA 	start_images/yellow.png
+745.1983 	DATA 	Keypress: v
+747.6795 	DATA 	end_images/yellow.png
+747.7270 	DATA 	start_images/vend.png
+756.7306 	DATA 	end_images/vend.png
+756.7807 	DATA 	start_images/red.png
+757.5988 	DATA 	Keypress: t
+757.7987 	DATA 	Keypress: t
+758.0142 	DATA 	Keypress: t
+758.2162 	DATA 	Keypress: t
+759.0307 	DATA 	Keypress: v
+759.6828 	DATA 	Keypress: v
+761.6817 	DATA 	Keypress: t
+761.7801 	DATA 	end_images/red.png
+761.8346 	DATA 	start_images/vend.png
+770.8466 	DATA 	end_images/vend.png
+770.8965 	DATA 	start_images/green.png
+773.4636 	DATA 	Keypress: v
+773.6640 	DATA 	Keypress: v
+773.8808 	DATA 	Keypress: v
+774.0987 	DATA 	Keypress: v
+774.2987 	DATA 	Keypress: v
+775.8969 	DATA 	end_images/green.png
+775.9512 	DATA 	start_images/vend.png
+776.5137 	DATA 	Keypress: t
+784.9633 	DATA 	end_images/vend.png
+785.0125 	DATA 	start_images/blue.png
+786.9144 	DATA 	Keypress: t
+787.1631 	DATA 	Keypress: t
+787.3482 	DATA 	Keypress: t
+787.4803 	DATA 	Keypress: v
+787.6983 	DATA 	Keypress: v
+790.0132 	DATA 	end_images/blue.png
+790.0678 	DATA 	start_images/vend.png
+799.0801 	DATA 	end_images/vend.png
+799.1292 	DATA 	start_images/yellow.png
+800.6488 	DATA 	Keypress: t
+804.1469 	DATA 	end_images/yellow.png
+828.1646 	DATA 	Keypress: lcommand
+832.5655 	DATA 	Mouse: Left button down, pos=(1209,730)
+832.6987 	DATA 	Mouse:  Left button up, pos=(1209,729)
+833.3495 	DATA 	Keypress: t
+833.8336 	DATA 	Keypress: v
+834.9984 	DATA 	Keypress: escape

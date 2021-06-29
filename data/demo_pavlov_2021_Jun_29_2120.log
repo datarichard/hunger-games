@@ -1,0 +1,52 @@
+0.2243 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+11.4033 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+13.2361 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+14.3151 	DATA 	version A
+14.9796 	WARNING 	t of last frame was 1743.68ms (=1/0)
+15.7885 	WARNING 	t of last frame was 21.25ms (=1/47)
+16.8053 	WARNING 	t of last frame was 21.30ms (=1/46)
+17.5569 	DATA 	Keypress: space
+17.5803 	WARNING 	t of last frame was 97.04ms (=1/10)
+20.5801 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+57.3193 	DATA 	test_images/blue.png
+57.3193 	DATA 	correct
+57.3255 	DATA 	Keypress: c
+92.2013 	DATA 	test_images/yellow.png
+92.2013 	DATA 	correct
+92.2047 	DATA 	Keypress: d
+124.9512 	DATA 	test_images/red.png
+124.9512 	DATA 	correct
+124.9546 	DATA 	Keypress: a
+158.5359 	DATA 	test_images/green.png
+158.5359 	DATA 	correct
+158.5399 	DATA 	Keypress: b
+189.6024 	DATA 	test_images/red.png
+189.6024 	DATA 	correct
+189.6066 	DATA 	Keypress: a
+221.4686 	DATA 	test_images/green.png
+221.4686 	DATA 	correct
+221.4720 	DATA 	Keypress: b
+255.0855 	DATA 	test_images/blue.png
+255.0855 	DATA 	correct
+255.0896 	DATA 	Keypress: c
+286.2359 	DATA 	test_images/yellow.png
+286.2359 	DATA 	correct
+286.2401 	DATA 	Keypress: d
+319.1688 	DATA 	test_images/red.png
+319.1688 	DATA 	correct
+319.1723 	DATA 	Keypress: a
+351.5187 	DATA 	test_images/green.png
+351.5187 	DATA 	correct
+351.5222 	DATA 	Keypress: b
+385.6849 	DATA 	test_images/blue.png
+385.6849 	DATA 	correct
+385.6883 	DATA 	Keypress: c
+418.5186 	DATA 	test_images/yellow.png
+418.5186 	DATA 	correct
+418.5220 	DATA 	Keypress: d
