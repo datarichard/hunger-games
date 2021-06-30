@@ -3,17 +3,17 @@ Psychopy scripts to test goal-directed decision-making using the vending machine
 
 ## Requirements
 _last tested with_  
- macOS 10.15.5  
-[PsychoPy v1.85.3](https://github.com/psychopy/psychopy/releases/tag/1.85.3)
+ macOS 11.4  
+[PsychoPy3 v2021.1.4](https://github.com/psychopy/psychopy/releases/tag/2021.1.4)
 
 ## General instructions
 
 Run order:  
 
-- Instrumental.psyexp
-- Pavlovian.psyexp
-- Transfer.psyexp
-- Devaluation.psyexp. 
+- Instrumental.py
+- Pavlovian.py
+- Transfer.py
+- Devaluation.py  
 
 Data is saved in the `\data` folder.  
 
@@ -27,7 +27,7 @@ We have discovered that people were stealing from the vending machines! We have 
 _Transfer_  
 Now you have found one of the upgraded machines. At random intervals we will overstock it with a different snack. You will be given an opportunity to steal from the machine when it is overstocked. However, to test your memory no snacks will appear on the screen. Remember what you have learned, and steal as many snacks as you can.  
 
-_Devaluation_ [before the movie, [click here to download](https://cloudstor.aarnet.edu.au/plus/s/Y8qBChvDs3ZS7Qe)]  
+_Devaluation_ [before the movie, [click here to download movies](https://cloudstor.aarnet.edu.au/plus/s/Y8qBChvDs3ZS7Qe)]  
 Something has happened to one of the snacks. Watch now to see what has happened.  
 
 _Devaluation test_ [shown on screen after the movie]  
