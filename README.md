@@ -35,4 +35,20 @@ You have found one of the original vending machines. As before, you won’t be s
 Try to steal as much as you can, as this will determine what you will get to eat afterwards!
 
 
+## Alternate instructions  
+
+Run order:  
+
+- contingency_RI.py
+- degradation_RI-1s.py  
+
+Data is saved in the `\data` folder.  
+
+## Participant instructions  
+_Contingency_  
+(to be added)  
+
+_Degradation_  
+(to be added)  
+
 
